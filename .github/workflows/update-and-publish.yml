@@ -28,6 +28,12 @@ jobs:
           python-version: '3.12'
 
       - name: Refresh research and SAF watch
+        env:
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+          LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
+          LINKEDIN_AUTHOR_URN: ${{ secrets.LINKEDIN_AUTHOR_URN }}
+          LINKEDIN_VERSION: ${{ vars.LINKEDIN_VERSION || '202604' }}
         run: python scripts/sync.py
 
       - name: Check website files
