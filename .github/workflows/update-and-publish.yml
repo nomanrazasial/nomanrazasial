@@ -41,8 +41,9 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add dist/data/research.json dist/data/snapshot.js
           if ! git diff --cached --quiet; then
-            git commit -m "Refresh research and SAF source snapshots"
-            git push
+            git commit -m "Refresh research and SAF source snapshots [skip ci]"
+            git pull --rebase origin main
+            git push origin HEAD:main
           fi
 
       - uses: actions/configure-pages@v5
