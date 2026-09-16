@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://nomanrazasial.github.io/nomanrazasial/sitemap.xml
