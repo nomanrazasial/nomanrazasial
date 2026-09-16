@@ -1,0 +1,17 @@
+{
+  "orcid": "0000-0002-8384-2646",
+  "scholarId": "5YPiUm0AAAAJ",
+  "sources": [
+    {"name":"EASA", "url":"https://www.easa.europa.eu/en/newsroom-and-events/news", "category":"EU policy", "kind":"discovery"},
+    {"name":"EASA · ReFuelEU", "url":"https://www.easa.europa.eu/en/domains/environment/refueleu-aviation-digital-reporting-tool", "category":"EU policy", "kind":"monitor"},
+    {"name":"European Commission · ReFuelEU", "url":"https://transport.ec.europa.eu/transport-modes/air/environment/refueleu-aviation_en", "category":"EU policy", "kind":"monitor"},
+    {"name":"European Commission · RED", "url":"https://energy.ec.europa.eu/topics/renewable-energy/renewable-energy-directive-targets-and-rules/renewable-energy-directive_en", "category":"EU policy", "kind":"monitor"},
+    {"name":"ICAO · CORSIA", "url":"https://www.icao.int/environmental-protection/CORSIA/Pages/default.aspx", "category":"Global SAF", "kind":"monitor"},
+    {"name":"IEA", "url":"https://www.iea.org/news", "category":"Global SAF", "kind":"discovery"},
+    {"name":"IRENA", "url":"https://www.irena.org/News", "category":"Global SAF", "kind":"discovery"},
+    {"name":"NREL / NLR", "url":"https://www.nlr.gov/news", "category":"Global SAF", "kind":"discovery"},
+    {"name":"The Guardian", "url":"https://www.theguardian.com/environment/rss", "category":"Global SAF", "kind":"rss"}
+  ],
+  "allowedDomains":["easa.europa.eu","transport.ec.europa.eu","energy.ec.europa.eu","eur-lex.europa.eu","icao.int","iea.org","irena.org","nrel.gov","nlr.gov","theguardian.com","reuters.com","apnews.com","ft.com"],
+  "keywords":["sustainable aviation", "aviation fuel", "sustainable fuel", "e-saf", "esaf", "refueleu", "corsia", "renewable energy directive", "biojet", "power-to-liquid", "synthetic fuel"]
+}
