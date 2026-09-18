@@ -20,7 +20,7 @@ window.PORTFOLIO_FUNDERS = [
     "url": "https://www.sasol.com/"
   },
   {
-    "file": "oxylum-white.png",
+    "file": "oxylum.png",
     "name": "Oxylum",
     "url": "https://oxylum.com/"
   },
