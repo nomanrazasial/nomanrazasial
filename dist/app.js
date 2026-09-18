@@ -72,7 +72,7 @@ const journalProfiles={
  "chemosphere":{quartile:"Q1",publisher:"Elsevier",url:"https://www.sciencedirect.com/journal/chemosphere"},
  "energy conversion and management":{quartile:"Q1",publisher:"Elsevier",url:"https://www.sciencedirect.com/journal/energy-conversion-and-management"},
  "separation and purification technology":{quartile:"Q1",publisher:"Elsevier",url:"https://www.sciencedirect.com/journal/separation-and-purification-technology"},
- "energy proceedings volume 24 2021":{quartile:null,publisher:"Energy Proceedings",url:"https://www.energy-proceedings.org/"}
+ "energy proceedings":{quartile:null,publisher:"Energy Proceedings",url:"https://www.energy-proceedings.org/"}
 };
 const journalPublisherTheme=publisher=>({
   "elsevier":{label:"Elsevier",className:"publisher-elsevier",accent:"EL"},
