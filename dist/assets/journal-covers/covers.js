@@ -52,6 +52,6 @@ window.JOURNAL_COVERS = {
     image: "assets/journal-covers/ep-cover.png",
     publisher: "Energy Proceedings",
     caption: "Energy Proceedings, Volume 24 (2021)",
-    url: "https://www.energy-proceedings.org"
+    url: "https://www.energy-proceedings.org/"
   }
 };
