@@ -92,12 +92,108 @@ function renderQuartiles(){
  $('#quartile-chart').setAttribute('aria-label',Object.entries(counts).map(([q,n])=>`${q}: ${n}`).join(', '));
 }
 function renderJournals(){
- const gallery=$('#journal-gallery'); if(!gallery)return;
- const names=[...new Set(data.publications.map(p=>String(p.journal||'').trim()).filter(j=>j&&!/^journal not supplied$/i.test(j)))];
- const fallbackNames=["International Journal of Thermofluids","Energy","ACS Sustainable Chemistry & Engineering","Sustainable Cities and Society","International Journal of Hydrogen Energy","Chemosphere","Energy Conversion and Management"];
- const coverMap=window.JOURNAL_COVERS||{};
- const rows=(names.length?names:fallbackNames).map(name=>{const profile=journalProfiles[normalizeJournal(name)]||{};const cover=coverMap[normalizeJournal(name)]||null;return {name,profile,cover};});
- gallery.innerHTML=rows.map(({name,profile,cover},i)=>{const theme=journalPublisherTheme(profile.publisher); const q=publicationQuartile({journal:name})||''; if(cover?.image){return `<a class="journal-card journal-cover-card" style="--jtilt:${((i%5)-2)*.7}deg" href="${url(cover.url||profile.url||'#')}" ${(cover.url||profile.url)?'target="_blank" rel="noopener"':''} title="${esc(name)}"><div class="journal-brand"><span class="brand-badge">${esc(cover.publisher||theme.label)}</span>${q?`<span class="journal-q">${q}</span>`:''}</div><div class="journal-cover-wrap"><img src="${esc(cover.image)}" alt="${esc(name)} cover image" loading="lazy"></div><small class="journal-foot">${esc(cover.caption||name)}</small></a>`;} return `<a class="journal-card ${theme.className}" style="--jtilt:${((i%5)-2)*.7}deg" href="${url(profile.url||'#')}" ${profile.url?'target="_blank" rel="noopener"':''} title="${esc(name)}"><div class="journal-brand"><span class="brand-badge">${esc(theme.label)}</span>${q?`<span class="journal-q">${q}</span>`:''}</div><div class="journal-art"><i class="journal-lines"></i><b class="journal-mark">${esc(journalMonogram(name)||theme.accent)}</b></div><small class="journal-foot">${esc(name)}</small></a>`;}).join('');
+  const gallery = $('#journal-gallery');
+  if(!gallery) return;
+
+  const names = [...new Set(
+    data.publications
+      .map(p => String(p.journal || '').trim())
+      .filter(j => j && !/^journal not supplied$/i.test(j))
+  )];
+
+  const fallbackNames = [
+    "International Journal of Thermofluids",
+    "Energy",
+    "ACS Sustainable Chemistry & Engineering",
+    "Sustainable Cities and Society",
+    "International Journal of Hydrogen Energy",
+    "Chemosphere",
+    "Energy Conversion and Management",
+    "Energy Proceedings, Volume 24 (2021)"
+  ];
+
+  const coverMap = window.JOURNAL_COVERS || {};
+
+  const rows = (names.length ? names : fallbackNames).map(name => {
+    const normalized = normalizeJournal(name);
+    const profile = journalProfiles[normalized] || {};
+    const cover = coverMap[normalized] || null;
+
+    return {
+      name,
+      profile,
+      cover
+    };
+  });
+
+  gallery.innerHTML = rows.map(({name, profile, cover}, i) => {
+
+    const theme = journalPublisherTheme(
+      cover?.publisher || profile.publisher
+    );
+
+    const q = publicationQuartile({journal:name}) || '';
+
+    const displayName = cover?.caption || name;
+
+    const destination =
+      cover?.url ||
+      profile.url ||
+      '';
+
+    if(cover?.image){
+      return `
+        <a
+          class="journal-card journal-cover-card"
+          style="--jtilt:${((i % 5) - 2) * .7}deg"
+          ${destination ? `href="${url(destination)}" target="_blank" rel="noopener"` : ''}
+          title="${esc(displayName)}"
+        >
+          <div class="journal-brand">
+            <span class="brand-badge">${esc(cover.publisher || theme.label)}</span>
+            ${q ? `<span class="journal-q">${q}</span>` : ''}
+          </div>
+
+          <div class="journal-cover-wrap">
+            <img
+              src="${esc(cover.image)}"
+              alt="${esc(displayName)} cover"
+              loading="lazy"
+            >
+          </div>
+
+          <small class="journal-foot">
+            ${esc(displayName)}
+          </small>
+        </a>
+      `;
+    }
+
+    return `
+      <a
+        class="journal-card ${theme.className}"
+        style="--jtilt:${((i % 5) - 2) * .7}deg"
+        ${destination ? `href="${url(destination)}" target="_blank" rel="noopener"` : ''}
+        title="${esc(displayName)}"
+      >
+        <div class="journal-brand">
+          <span class="brand-badge">${esc(theme.label)}</span>
+          ${q ? `<span class="journal-q">${q}</span>` : ''}
+        </div>
+
+        <div class="journal-art">
+          <i class="journal-lines"></i>
+          <b class="journal-mark">
+            ${esc(journalMonogram(displayName) || theme.accent)}
+          </b>
+        </div>
+
+        <small class="journal-foot">
+          ${esc(displayName)}
+        </small>
+      </a>
+    `;
+  }).join('');
 }
 function renderPubs(){const query=$('#publication-search').value.toLowerCase(),year=$('#publication-year').value;visiblePubs=data.publications.filter(p=>(year==='all'||String(p.year)===year)&&[p.title,p.journal,p.doi,p.authors].join(' ').toLowerCase().includes(query)).sort((a,b)=>(Number(b.year)||0)-(Number(a.year)||0)||a.title.localeCompare(b.title));$('#publication-count').textContent=`${visiblePubs.length} of ${data.publications.length} publication records`;$('#publication-list').innerHTML=visiblePubs.map(p=>`<article class="publication"><span class="pub-year">${esc(p.year||'–')}</span><div><h3><a href="${url(p.url)}" target="_blank" rel="noopener">${esc(p.title)}</a>${p.citations!=null?`<span class="citation-badge" title="Citation count from ${esc(p.citationSource||'connected source')}">${esc(p.citations)} citations</span>`:''}${/environmental footprint of bitcoin/i.test(p.title||'')?`<span class="cover-badge">Journal cover feature</span>`:''}</h3><p>${esc(p.journal||'Journal not supplied')} · ${esc(p.source)}${publicationQuartile(p)?` · ${publicationQuartile(p)}`:''}</p>${p.authors?`<p>${esc(p.authors)}</p>`:''}${p.doi?`<p class="pub-doi">doi: ${esc(p.doi)}</p>`:''}</div><a class="pub-arrow" href="${url(p.url)}" target="_blank" rel="noopener" aria-label="Read ${esc(p.title)}">↗</a></article>`).join('')||'<p class="empty">No publications match your search. Try another term or year.</p>';}
 function renderNews(){const allRows=normalizedNews().filter(n=>filter==='all'||n.region===filter).filter(n=>n.date).sort((a,b)=>Date.parse(b.date)-Date.parse(a.date));const rows=allRows.slice(0,newsLimit);$('#news-more').hidden=allRows.length<=newsLimit;$('#news-list').innerHTML=rows.map(n=>`<article class="news-card"><div class="news-meta"><b>${esc(n.source)}</b><span>${date(n.date)}</span></div><h3><a href="${url(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a></h3>${n.summary?`<p>${esc(n.summary)}</p>`:''}<div class="news-bottom"><span>${esc(n.region||'Global')}${n.kind?' · '+esc(n.kind):''}</span><a href="${url(n.url)}" target="_blank" rel="noopener" aria-label="Read ${esc(n.title)}">Read source ↗</a></div></article>`).join('')||'<p class="empty">No dated updates match the current filter.</p>';$('#news-updated').textContent=`${allRows.length} dated items · ordered by publication date`;$('#source-list').innerHTML=(data.sources||[]).map(s=>`<div class="source-item"><a href="${url(s.url)}" target="_blank" rel="noopener">${esc(s.name)} ↗</a><small>${esc(s.status||'Not checked')} ${s.lastSuccess?'· Last success '+date(s.lastSuccess):''}</small></div>`).join('');}
