@@ -42,7 +42,7 @@ window.JOURNAL_COVERS={
     url:"https://pubs.acs.org/ascecg"
   }
   "energy proceedings volume 24 (2021)":{
-    image:"assets/journal-covers/ep-cover.jpg",
+    image:"assets/journal-covers/ep-cover.png",
     publisher:"Elsevier",
     caption:"Energy Proceedings 24 (2021)",
     url:"https://www.energy-proceedings.org"
