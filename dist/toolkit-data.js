@@ -1,11 +1,11 @@
-// Set proficiency to an integer from 1 to 5, or leave null if unassigned.
+// Set proficiency from 0 to 5. Half-point ratings are supported.
 window.TOOLKIT = [
   {
     "name": "Python (Jupyter Notebook)",
     "icon": "python.svg",
     "purpose": "Data & modelling",
     "description": "Python supports numerical analysis, optimization, and reproducible research. Jupyter notebooks bring code, outputs, and explanations together.",
-    "proficiency": null,
+    "proficiency": 4.5,
     "extraIcon": "jupyter.svg"
   },
   {
@@ -13,48 +13,48 @@ window.TOOLKIT = [
     "icon": "aspentech.svg",
     "purpose": "Process simulation",
     "description": "Steady-state and dynamic simulation for gas processing, liquefaction, and integrated energy systems.",
-    "proficiency": null
+    "proficiency": 5
   },
   {
     "name": "Aspen Plus",
     "icon": "aspentech.svg",
     "purpose": "Process design",
     "description": "Chemical process modelling, material and energy balances, and flowsheet evaluation.",
-    "proficiency": null
+    "proficiency": 4
   },
   {
     "name": "MS Office",
     "icon": "office.svg",
     "purpose": "Communication & delivery",
     "description": "Documents, presentations, and collaborative tools for organizing and communicating research.",
-    "proficiency": null
+    "proficiency": 5
   },
   {
     "name": "Advanced Excel",
     "icon": "excel.svg",
     "purpose": "Analysis & decision support",
     "description": "Spreadsheet models, data analysis, scenario calculations, and structured reporting.",
-    "proficiency": null
+    "proficiency": 4
   },
   {
     "name": "OriginPro",
     "icon": "originlab.png",
     "purpose": "Scientific analysis",
     "description": "Data analysis, curve fitting, and publication-oriented scientific visualization.",
-    "proficiency": null
+    "proficiency": 4.5
   },
   {
     "name": "EdrawMax",
     "icon": "edrawmax.svg",
     "purpose": "Diagrams & workflows",
     "description": "Process diagrams, system maps, and visual explanations of complex workflows.",
-    "proficiency": null
+    "proficiency": 5
   },
   {
     "name": "CorelDRAW",
     "icon": "coreldraw-icon.png",
     "purpose": "Visual communication",
     "description": "Vector graphics and layout for clear technical and research communication.",
-    "proficiency": null
+    "proficiency": 4.5
   }
 ];
