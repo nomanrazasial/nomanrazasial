@@ -48,10 +48,10 @@ window.JOURNAL_COVERS = {
     url: "https://pubs.acs.org/journal/ascecg"
   },
 
-  "energy proceedings volume 24 2021": {
-    image: "assets/journal-covers/ep-cover.jpg",
+  "energy proceedings": {
+    image: "assets/journal-covers/ep-cover.png",
     publisher: "Energy Proceedings",
-    caption: "Energy Proceedings, Volume 24 (2021)",
+    caption: "Energy Proceedings",
     url: "https://www.energy-proceedings.org/"
   }
 };
