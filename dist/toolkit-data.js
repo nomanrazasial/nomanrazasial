@@ -10,14 +10,14 @@ window.TOOLKIT = [
   },
   {
     "name": "Aspen HYSYS",
-    "icon": "aspentech.svg",
+    "icon": "aspenhysys.png",
     "purpose": "Process simulation",
     "description": "Steady-state and dynamic simulation for gas processing, liquefaction, and integrated energy systems.",
     "proficiency": 5
   },
   {
     "name": "Aspen Plus",
-    "icon": "aspentech.svg",
+    "icon": "aspenplus.png",
     "purpose": "Process design",
     "description": "Chemical process modelling, material and energy balances, and flowsheet evaluation.",
     "proficiency": 4
