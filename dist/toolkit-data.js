@@ -24,7 +24,7 @@ window.TOOLKIT = [
   },
   {
     "name": "MS Office",
-    "icon": "office.svg",
+    "icon": "office.jpg",
     "purpose": "Communication & delivery",
     "description": "Documents, presentations, and collaborative tools for organizing and communicating research.",
     "proficiency": 5
