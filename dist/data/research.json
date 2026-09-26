@@ -102,6 +102,17 @@
       "citationSource": "Google Scholar"
     },
     {
+      "title": "Membrane-and-Cryogenic-Assisted Hydrogen Separation and Purification Process",
+      "year": "2022",
+      "journal": "Energy Proceedings 24, 2021",
+      "doi": "10.46855/energy-proceedings-9774",
+      "url": "https://doi.org/10.46855/energy-proceedings-9774",
+      "source": "OpenAlex + Google Scholar",
+      "authors": "Ahmad Naquash and Muhammad Qyyum and Yus Donald Chaniago and Amjad Riaz and Noman Raza Sial and Muhammad Islam and Seongwoong Min and Hankwon Lim and Moonyong Lee and * *",
+      "citations": 12,
+      "citationSource": "Google Scholar"
+    },
+    {
       "title": "Performance enhancement of hydrogen liquefaction process via absorption refrigeration and organic Rankine cycle-assisted liquid air energy system",
       "year": "2022",
       "journal": "ENERGY CONVERSION AND MANAGEMENT",
@@ -111,19 +122,9 @@
       "authors": "Ahmad Naquash and Muhammad Abdul Qyyum and Muhammad Remanul Islam and Noman Raza Sial and Seongwoong Min and Sanggyu Lee and Moonyong Lee",
       "citations": 74,
       "citationSource": "Google Scholar"
-    },
-    {
-      "title": "Membrane-and-cryogenic-assisted hydrogen separation and purification process",
-      "year": "2021",
-      "journal": "Energy Proceedings 24, 2021",
-      "authors": "A Naquash and MA Qyyum and YD Chaniago and A Riaz and NR Sial and M Islam and S Min and ...",
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=5YPiUm0AAAAJ&pagesize=100&citation_for_view=5YPiUm0AAAAJ:UeHWp8X0CEIC",
-      "source": "Google Scholar",
-      "citations": 12,
-      "citationSource": "Google Scholar"
     }
   ],
-  "orcidUpdatedAt": "2026-09-25T06:41:26.122815+00:00",
+  "orcidUpdatedAt": "2026-09-26T06:38:55.471339+00:00",
   "metrics": {
     "provider": "OpenAlex",
     "url": "https://openalex.org/A5030531079",
@@ -163,13 +164,13 @@
         "cited_by_count": 1
       }
     ],
-    "updatedAt": "2026-09-25T06:41:26.122815+00:00"
+    "updatedAt": "2026-09-26T06:38:55.471339+00:00"
   },
   "scholar": {
     "metrics": {
       "provider": "Google Scholar",
       "url": "https://scholar.google.com/citations?user=5YPiUm0AAAAJ",
-      "updatedAt": "2026-09-25T06:41:26.122815+00:00",
+      "updatedAt": "2026-09-26T06:38:55.471339+00:00",
       "citations": 213,
       "hIndex": 7,
       "i10Index": 7
@@ -649,57 +650,57 @@
       "url": "https://www.easa.europa.eu/en/newsroom-and-events/news",
       "category": "EU policy",
       "kind": "discovery",
-      "lastAttempt": "2026-09-25T06:41:26.122815+00:00",
+      "lastAttempt": "2026-09-26T06:38:55.471339+00:00",
       "hash": "11a2062633b560672d29aa88eff1da8672a21be0679d63906101839560696db0",
       "status": "Checked",
-      "lastSuccess": "2026-09-25T06:41:26.122815+00:00"
+      "lastSuccess": "2026-09-26T06:38:55.471339+00:00"
     },
     {
       "name": "EASA · ReFuelEU",
       "url": "https://www.easa.europa.eu/en/domains/environment/refueleu-aviation-digital-reporting-tool",
       "category": "EU policy",
       "kind": "monitor",
-      "lastAttempt": "2026-09-25T06:41:26.122815+00:00",
+      "lastAttempt": "2026-09-26T06:38:55.471339+00:00",
       "hash": "bfb7297fe19fc4f1bebb43f808e200612ff09bc93888c93fe217698ef7766b0f",
       "status": "Checked",
-      "lastSuccess": "2026-09-25T06:41:26.122815+00:00"
+      "lastSuccess": "2026-09-26T06:38:55.471339+00:00"
     },
     {
       "name": "European Commission · ReFuelEU",
       "url": "https://transport.ec.europa.eu/transport-modes/air/environment/refueleu-aviation_en",
       "category": "EU policy",
       "kind": "monitor",
-      "lastAttempt": "2026-09-25T06:41:26.122815+00:00",
+      "lastAttempt": "2026-09-26T06:38:55.471339+00:00",
       "hash": "80b1c24bc7cc966f092bbfd2f65c62ceba758a34ac8a0bf5d19a9356ad3b86e9",
       "status": "Checked",
-      "lastSuccess": "2026-09-25T06:41:26.122815+00:00"
+      "lastSuccess": "2026-09-26T06:38:55.471339+00:00"
     },
     {
       "name": "European Commission · RED",
       "url": "https://energy.ec.europa.eu/topics/renewable-energy/renewable-energy-directive-targets-and-rules/renewable-energy-directive_en",
       "category": "EU policy",
       "kind": "monitor",
-      "lastAttempt": "2026-09-25T06:41:26.122815+00:00",
+      "lastAttempt": "2026-09-26T06:38:55.471339+00:00",
       "hash": "7b9fc1c64c6e91800f726269779baf95d607d864e718226bc51d6c62fcf47ba7",
       "status": "Checked",
-      "lastSuccess": "2026-09-25T06:41:26.122815+00:00"
+      "lastSuccess": "2026-09-26T06:38:55.471339+00:00"
     },
     {
       "name": "ICAO · CORSIA",
       "url": "https://www.icao.int/environmental-protection/CORSIA/Pages/default.aspx",
       "category": "Global SAF",
       "kind": "monitor",
-      "lastAttempt": "2026-09-25T06:41:26.122815+00:00",
+      "lastAttempt": "2026-09-26T06:38:55.471339+00:00",
       "hash": "2bfb98762ce7ce4aea45b0625b79570d6524f3ae41342afee403a4a925213684",
       "status": "Checked",
-      "lastSuccess": "2026-09-25T06:41:26.122815+00:00"
+      "lastSuccess": "2026-09-26T06:38:55.471339+00:00"
     },
     {
       "name": "IEA",
       "url": "https://www.iea.org/news",
       "category": "Global SAF",
       "kind": "discovery",
-      "lastAttempt": "2026-09-25T06:41:26.122815+00:00",
+      "lastAttempt": "2026-09-26T06:38:55.471339+00:00",
       "status": "Update unavailable — retained saved items",
       "lastSuccess": "2026-09-16T12:07:03.983959+00:00",
       "hash": "a31b77ff66286ae456e1a6e62f373d3413d971e89ddbb6bcdebc151f4a8fab4f"
@@ -709,7 +710,7 @@
       "url": "https://www.irena.org/News",
       "category": "Global SAF",
       "kind": "discovery",
-      "lastAttempt": "2026-09-25T06:41:26.122815+00:00",
+      "lastAttempt": "2026-09-26T06:38:55.471339+00:00",
       "status": "Update unavailable — retained saved items",
       "lastSuccess": null,
       "hash": null
@@ -719,19 +720,19 @@
       "url": "https://www.nlr.gov/news",
       "category": "Global SAF",
       "kind": "discovery",
-      "lastAttempt": "2026-09-25T06:41:26.122815+00:00",
+      "lastAttempt": "2026-09-26T06:38:55.471339+00:00",
       "hash": "9f38167674a000f5b540c93320ebfe6ea97d81d9f5f7244e403e2ce68aa43246",
       "status": "Checked",
-      "lastSuccess": "2026-09-25T06:41:26.122815+00:00"
+      "lastSuccess": "2026-09-26T06:38:55.471339+00:00"
     },
     {
       "name": "The Guardian",
       "url": "https://www.theguardian.com/environment/rss",
       "category": "Global SAF",
       "kind": "rss",
-      "lastAttempt": "2026-09-25T06:41:26.122815+00:00",
+      "lastAttempt": "2026-09-26T06:38:55.471339+00:00",
       "status": "Checked",
-      "lastSuccess": "2026-09-25T06:41:26.122815+00:00"
+      "lastSuccess": "2026-09-26T06:38:55.471339+00:00"
     }
   ],
   "orcidPublications": [
@@ -808,7 +809,7 @@
       "source": "ORCID"
     }
   ],
-  "lastAttempt": "2026-09-25T06:41:26.122815+00:00",
+  "lastAttempt": "2026-09-26T06:38:55.471339+00:00",
   "openalexPublications": [
     {
       "title": "Performance enhancement of hydrogen liquefaction process via absorption refrigeration and organic Rankine cycle-assisted liquid air energy system",
@@ -899,6 +900,17 @@
       "citationSource": "OpenAlex"
     },
     {
+      "title": "Membrane-and-Cryogenic-Assisted Hydrogen Separation and Purification Process",
+      "year": "2022",
+      "journal": "",
+      "doi": "10.46855/energy-proceedings-9774",
+      "url": "https://doi.org/10.46855/energy-proceedings-9774",
+      "source": "OpenAlex",
+      "authors": "Ahmad Naquash and Muhammad Qyyum and Yus Donald Chaniago and Amjad Riaz and Noman Raza Sial and Muhammad Islam and Seongwoong Min and Hankwon Lim and Moonyong Lee and * *",
+      "citations": 5,
+      "citationSource": "OpenAlex"
+    },
+    {
       "title": "Techno-Economic Analysis and Life Cycle Assessment of Green Hydrogen Production: A Case Study of Sur Industrial City in Oman",
       "year": "2024",
       "journal": "SSRN Electronic Journal",
@@ -932,7 +944,7 @@
       "citationSource": "OpenAlex"
     }
   ],
-  "newsUpdatedAt": "2026-09-25T06:41:26.122815+00:00",
+  "newsUpdatedAt": "2026-09-26T06:38:55.471339+00:00",
   "scholarPublications": [
     {
       "title": "Performance enhancement of hydrogen liquefaction process via absorption refrigeration and organic Rankine cycle-assisted liquid air energy system",
