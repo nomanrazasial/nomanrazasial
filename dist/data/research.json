@@ -124,7 +124,7 @@
       "citationSource": "Google Scholar"
     }
   ],
-  "orcidUpdatedAt": "2026-10-09T06:46:35.660801+00:00",
+  "orcidUpdatedAt": "2026-10-10T06:44:14.870610+00:00",
   "metrics": {
     "provider": "OpenAlex",
     "url": "https://openalex.org/A5030531079",
@@ -164,13 +164,13 @@
         "cited_by_count": 1
       }
     ],
-    "updatedAt": "2026-10-09T06:46:35.660801+00:00"
+    "updatedAt": "2026-10-10T06:44:14.870610+00:00"
   },
   "scholar": {
     "metrics": {
       "provider": "Google Scholar",
       "url": "https://scholar.google.com/citations?user=5YPiUm0AAAAJ",
-      "updatedAt": "2026-10-09T06:46:35.660801+00:00",
+      "updatedAt": "2026-10-10T06:44:14.870610+00:00",
       "citations": 214,
       "hIndex": 7,
       "i10Index": 7
@@ -659,57 +659,57 @@
       "url": "https://www.easa.europa.eu/en/newsroom-and-events/news",
       "category": "EU policy",
       "kind": "discovery",
-      "lastAttempt": "2026-10-09T06:46:35.660801+00:00",
+      "lastAttempt": "2026-10-10T06:44:14.870610+00:00",
       "hash": "3cf7f46ee9faa13b9582c3831108055183c2729e5a98f963950a182a5a3bb18e",
       "status": "Checked",
-      "lastSuccess": "2026-10-09T06:46:35.660801+00:00"
+      "lastSuccess": "2026-10-10T06:44:14.870610+00:00"
     },
     {
       "name": "EASA · ReFuelEU",
       "url": "https://www.easa.europa.eu/en/domains/environment/refueleu-aviation-digital-reporting-tool",
       "category": "EU policy",
       "kind": "monitor",
-      "lastAttempt": "2026-10-09T06:46:35.660801+00:00",
+      "lastAttempt": "2026-10-10T06:44:14.870610+00:00",
       "hash": "79ac0d842ab226b15ed3ce4053096f8d1b9aab3be75d726a8a085ae027a072ae",
       "status": "Checked",
-      "lastSuccess": "2026-10-09T06:46:35.660801+00:00"
+      "lastSuccess": "2026-10-10T06:44:14.870610+00:00"
     },
     {
       "name": "European Commission · ReFuelEU",
       "url": "https://transport.ec.europa.eu/transport-modes/air/environment/refueleu-aviation_en",
       "category": "EU policy",
       "kind": "monitor",
-      "lastAttempt": "2026-10-09T06:46:35.660801+00:00",
+      "lastAttempt": "2026-10-10T06:44:14.870610+00:00",
       "hash": "f06be6307df0db93ec218f84bb4a73cd18824f8b1cac6cc13534b8a1eaf0abc1",
       "status": "Checked",
-      "lastSuccess": "2026-10-09T06:46:35.660801+00:00"
+      "lastSuccess": "2026-10-10T06:44:14.870610+00:00"
     },
     {
       "name": "European Commission · RED",
       "url": "https://energy.ec.europa.eu/topics/renewable-energy/renewable-energy-directive-targets-and-rules/renewable-energy-directive_en",
       "category": "EU policy",
       "kind": "monitor",
-      "lastAttempt": "2026-10-09T06:46:35.660801+00:00",
+      "lastAttempt": "2026-10-10T06:44:14.870610+00:00",
       "hash": "1a81b0159eaa61761ceba4ef3a458397894af6b1add9292add4a898d06bb37a3",
       "status": "Checked",
-      "lastSuccess": "2026-10-09T06:46:35.660801+00:00"
+      "lastSuccess": "2026-10-10T06:44:14.870610+00:00"
     },
     {
       "name": "ICAO · CORSIA",
       "url": "https://www.icao.int/environmental-protection/CORSIA/Pages/default.aspx",
       "category": "Global SAF",
       "kind": "monitor",
-      "lastAttempt": "2026-10-09T06:46:35.660801+00:00",
+      "lastAttempt": "2026-10-10T06:44:14.870610+00:00",
       "hash": "2bfb98762ce7ce4aea45b0625b79570d6524f3ae41342afee403a4a925213684",
       "status": "Checked",
-      "lastSuccess": "2026-10-09T06:46:35.660801+00:00"
+      "lastSuccess": "2026-10-10T06:44:14.870610+00:00"
     },
     {
       "name": "IEA",
       "url": "https://www.iea.org/news",
       "category": "Global SAF",
       "kind": "discovery",
-      "lastAttempt": "2026-10-09T06:46:35.660801+00:00",
+      "lastAttempt": "2026-10-10T06:44:14.870610+00:00",
       "status": "Update unavailable — retained saved items",
       "lastSuccess": "2026-09-16T12:07:03.983959+00:00",
       "hash": "a31b77ff66286ae456e1a6e62f373d3413d971e89ddbb6bcdebc151f4a8fab4f"
@@ -719,7 +719,7 @@
       "url": "https://www.irena.org/News",
       "category": "Global SAF",
       "kind": "discovery",
-      "lastAttempt": "2026-10-09T06:46:35.660801+00:00",
+      "lastAttempt": "2026-10-10T06:44:14.870610+00:00",
       "status": "Update unavailable — retained saved items",
       "lastSuccess": "2026-10-02T06:43:39.713877+00:00",
       "hash": "54068c61cf49f3cc9fc63d67fbf4ebd352e0a769d2f09511823d33032ea35f28"
@@ -729,19 +729,19 @@
       "url": "https://www.nlr.gov/news",
       "category": "Global SAF",
       "kind": "discovery",
-      "lastAttempt": "2026-10-09T06:46:35.660801+00:00",
+      "lastAttempt": "2026-10-10T06:44:14.870610+00:00",
       "hash": "a1c3ce797ccd13ec6d6f4ac72f4ca05adc5b46c9032b05b2cf051f76383356fa",
       "status": "Checked",
-      "lastSuccess": "2026-10-09T06:46:35.660801+00:00"
+      "lastSuccess": "2026-10-10T06:44:14.870610+00:00"
     },
     {
       "name": "The Guardian",
       "url": "https://www.theguardian.com/environment/rss",
       "category": "Global SAF",
       "kind": "rss",
-      "lastAttempt": "2026-10-09T06:46:35.660801+00:00",
+      "lastAttempt": "2026-10-10T06:44:14.870610+00:00",
       "status": "Checked",
-      "lastSuccess": "2026-10-09T06:46:35.660801+00:00"
+      "lastSuccess": "2026-10-10T06:44:14.870610+00:00"
     }
   ],
   "orcidPublications": [
@@ -818,7 +818,7 @@
       "source": "ORCID"
     }
   ],
-  "lastAttempt": "2026-10-09T06:46:35.660801+00:00",
+  "lastAttempt": "2026-10-10T06:44:14.870610+00:00",
   "openalexPublications": [
     {
       "title": "Performance enhancement of hydrogen liquefaction process via absorption refrigeration and organic Rankine cycle-assisted liquid air energy system",
@@ -953,7 +953,7 @@
       "citationSource": "OpenAlex"
     }
   ],
-  "newsUpdatedAt": "2026-10-09T06:46:35.660801+00:00",
+  "newsUpdatedAt": "2026-10-10T06:44:14.870610+00:00",
   "scholarPublications": [
     {
       "title": "Performance enhancement of hydrogen liquefaction process via absorption refrigeration and organic Rankine cycle-assisted liquid air energy system",
