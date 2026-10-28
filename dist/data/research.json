@@ -53,7 +53,7 @@
       "doi": "10.1016/j.scs.2025.106405",
       "url": "https://doi.org/10.1016/j.scs.2025.106405",
       "source": "ORCID + OpenAlex + Google Scholar",
-      "authors": "Noman Raza Sial and Malik Sajawal Akhtar and Muhammad Islam and Muhammad Abdul Qyyum and Rashid S. Al Abri and Ahmed Al-Hatrooshi and Ala'a Hamed Al-Muhtaseb",
+      "authors": "Noman Raza Sial and Malik Sajawal Akhtar and Muhammad Remanul Islam and Muhammad Abdul Qyyum and Rashid S. Al Abri and Ahmed Al-Hatrooshi and Ala'a Hamed Al-Muhtaseb",
       "citations": 16,
       "citationSource": "Google Scholar"
     },
@@ -124,7 +124,7 @@
       "citationSource": "Google Scholar"
     }
   ],
-  "orcidUpdatedAt": "2026-10-27T12:28:55.174112+00:00",
+  "orcidUpdatedAt": "2026-10-28T13:15:57.124246+00:00",
   "metrics": {
     "provider": "OpenAlex",
     "url": "https://openalex.org/A5030531079",
@@ -137,13 +137,13 @@
         "year": 2022,
         "works_count": 3,
         "oa_works_count": 1,
-        "cited_by_count": 89
+        "cited_by_count": 6
       },
       {
         "year": 2023,
         "works_count": 1,
         "oa_works_count": 0,
-        "cited_by_count": 39
+        "cited_by_count": 32
       },
       {
         "year": 2024,
@@ -155,22 +155,22 @@
         "year": 2025,
         "works_count": 3,
         "oa_works_count": 1,
-        "cited_by_count": 20
+        "cited_by_count": 68
       },
       {
         "year": 2026,
         "works_count": 1,
         "oa_works_count": 1,
-        "cited_by_count": 1
+        "cited_by_count": 43
       }
     ],
-    "updatedAt": "2026-10-27T12:28:55.174112+00:00"
+    "updatedAt": "2026-10-28T13:15:57.124246+00:00"
   },
   "scholar": {
     "metrics": {
       "provider": "Google Scholar",
       "url": "https://scholar.google.com/citations?user=5YPiUm0AAAAJ",
-      "updatedAt": "2026-10-27T12:28:55.174112+00:00",
+      "updatedAt": "2026-10-28T13:15:57.124246+00:00",
       "citations": 217,
       "hIndex": 7,
       "i10Index": 7
@@ -659,57 +659,57 @@
       "url": "https://www.easa.europa.eu/en/newsroom-and-events/news",
       "category": "EU policy",
       "kind": "discovery",
-      "lastAttempt": "2026-10-27T12:28:55.174112+00:00",
+      "lastAttempt": "2026-10-28T13:15:57.124246+00:00",
       "hash": "48ff85d8052eeb0fae06828f5b555f11a5ef70e794e7534888893eec31020ee9",
       "status": "Checked",
-      "lastSuccess": "2026-10-27T12:28:55.174112+00:00"
+      "lastSuccess": "2026-10-28T13:15:57.124246+00:00"
     },
     {
       "name": "EASA · ReFuelEU",
       "url": "https://www.easa.europa.eu/en/domains/environment/refueleu-aviation-digital-reporting-tool",
       "category": "EU policy",
       "kind": "monitor",
-      "lastAttempt": "2026-10-27T12:28:55.174112+00:00",
+      "lastAttempt": "2026-10-28T13:15:57.124246+00:00",
       "hash": "6191bacbfb2210861a9ff1bd093f08ab8f987bf32fe40862e015a982a9f71c75",
       "status": "Checked",
-      "lastSuccess": "2026-10-27T12:28:55.174112+00:00"
+      "lastSuccess": "2026-10-28T13:15:57.124246+00:00"
     },
     {
       "name": "European Commission · ReFuelEU",
       "url": "https://transport.ec.europa.eu/transport-modes/air/environment/refueleu-aviation_en",
       "category": "EU policy",
       "kind": "monitor",
-      "lastAttempt": "2026-10-27T12:28:55.174112+00:00",
+      "lastAttempt": "2026-10-28T13:15:57.124246+00:00",
       "hash": "f06be6307df0db93ec218f84bb4a73cd18824f8b1cac6cc13534b8a1eaf0abc1",
       "status": "Checked",
-      "lastSuccess": "2026-10-27T12:28:55.174112+00:00"
+      "lastSuccess": "2026-10-28T13:15:57.124246+00:00"
     },
     {
       "name": "European Commission · RED",
       "url": "https://energy.ec.europa.eu/topics/renewable-energy/renewable-energy-directive-targets-and-rules/renewable-energy-directive_en",
       "category": "EU policy",
       "kind": "monitor",
-      "lastAttempt": "2026-10-27T12:28:55.174112+00:00",
+      "lastAttempt": "2026-10-28T13:15:57.124246+00:00",
       "hash": "1a81b0159eaa61761ceba4ef3a458397894af6b1add9292add4a898d06bb37a3",
       "status": "Checked",
-      "lastSuccess": "2026-10-27T12:28:55.174112+00:00"
+      "lastSuccess": "2026-10-28T13:15:57.124246+00:00"
     },
     {
       "name": "ICAO · CORSIA",
       "url": "https://www.icao.int/environmental-protection/CORSIA/Pages/default.aspx",
       "category": "Global SAF",
       "kind": "monitor",
-      "lastAttempt": "2026-10-27T12:28:55.174112+00:00",
+      "lastAttempt": "2026-10-28T13:15:57.124246+00:00",
       "hash": "2bfb98762ce7ce4aea45b0625b79570d6524f3ae41342afee403a4a925213684",
       "status": "Checked",
-      "lastSuccess": "2026-10-27T12:28:55.174112+00:00"
+      "lastSuccess": "2026-10-28T13:15:57.124246+00:00"
     },
     {
       "name": "IEA",
       "url": "https://www.iea.org/news",
       "category": "Global SAF",
       "kind": "discovery",
-      "lastAttempt": "2026-10-27T12:28:55.174112+00:00",
+      "lastAttempt": "2026-10-28T13:15:57.124246+00:00",
       "status": "Update unavailable — retained saved items",
       "lastSuccess": "2026-09-16T12:07:03.983959+00:00",
       "hash": "a31b77ff66286ae456e1a6e62f373d3413d971e89ddbb6bcdebc151f4a8fab4f"
@@ -719,7 +719,7 @@
       "url": "https://www.irena.org/News",
       "category": "Global SAF",
       "kind": "discovery",
-      "lastAttempt": "2026-10-27T12:28:55.174112+00:00",
+      "lastAttempt": "2026-10-28T13:15:57.124246+00:00",
       "status": "Update unavailable — retained saved items",
       "lastSuccess": "2026-10-02T06:43:39.713877+00:00",
       "hash": "54068c61cf49f3cc9fc63d67fbf4ebd352e0a769d2f09511823d33032ea35f28"
@@ -729,19 +729,19 @@
       "url": "https://www.nlr.gov/news",
       "category": "Global SAF",
       "kind": "discovery",
-      "lastAttempt": "2026-10-27T12:28:55.174112+00:00",
-      "hash": "c30eccf3c63661a42eb9355cdd8191e7de6fe365d68a84b73b2a9a47c4214704",
+      "lastAttempt": "2026-10-28T13:15:57.124246+00:00",
+      "hash": "031feff5833b29ebfb815a03abec9017a12743d7b2d5a4586863065b5bc7c972",
       "status": "Checked",
-      "lastSuccess": "2026-10-27T12:28:55.174112+00:00"
+      "lastSuccess": "2026-10-28T13:15:57.124246+00:00"
     },
     {
       "name": "The Guardian",
       "url": "https://www.theguardian.com/environment/rss",
       "category": "Global SAF",
       "kind": "rss",
-      "lastAttempt": "2026-10-27T12:28:55.174112+00:00",
+      "lastAttempt": "2026-10-28T13:15:57.124246+00:00",
       "status": "Checked",
-      "lastSuccess": "2026-10-27T12:28:55.174112+00:00"
+      "lastSuccess": "2026-10-28T13:15:57.124246+00:00"
     }
   ],
   "orcidPublications": [
@@ -818,7 +818,7 @@
       "source": "ORCID"
     }
   ],
-  "lastAttempt": "2026-10-27T12:28:55.174112+00:00",
+  "lastAttempt": "2026-10-28T13:15:57.124246+00:00",
   "openalexPublications": [
     {
       "title": "Performance enhancement of hydrogen liquefaction process via absorption refrigeration and organic Rankine cycle-assisted liquid air energy system",
@@ -850,7 +850,7 @@
       "url": "https://doi.org/10.1016/j.ijhydene.2024.05.148",
       "source": "OpenAlex",
       "authors": "Noman Raza Sial and Hilal Al-Abri and Muhammad Abdul Qyyum and Rashid S. Al Abri and Ala'a Hamed Al-Muhtaseb",
-      "citations": 23,
+      "citations": 24,
       "citationSource": "OpenAlex"
     },
     {
@@ -860,8 +860,8 @@
       "doi": "10.1016/j.scs.2025.106405",
       "url": "https://doi.org/10.1016/j.scs.2025.106405",
       "source": "OpenAlex",
-      "authors": "Noman Raza Sial and Malik Sajawal Akhtar and Muhammad Islam and Muhammad Abdul Qyyum and Rashid S. Al Abri and Ahmed Al-Hatrooshi and Ala'a Hamed Al-Muhtaseb",
-      "citations": 17,
+      "authors": "Noman Raza Sial and Malik Sajawal Akhtar and Muhammad Remanul Islam and Muhammad Abdul Qyyum and Rashid S. Al Abri and Ahmed Al-Hatrooshi and Ala'a Hamed Al-Muhtaseb",
+      "citations": 18,
       "citationSource": "OpenAlex"
     },
     {
@@ -942,7 +942,7 @@
       "citationSource": "OpenAlex"
     }
   ],
-  "newsUpdatedAt": "2026-10-27T12:28:55.174112+00:00",
+  "newsUpdatedAt": "2026-10-28T13:15:57.124246+00:00",
   "scholarPublications": [
     {
       "title": "Performance enhancement of hydrogen liquefaction process via absorption refrigeration and organic Rankine cycle-assisted liquid air energy system",
